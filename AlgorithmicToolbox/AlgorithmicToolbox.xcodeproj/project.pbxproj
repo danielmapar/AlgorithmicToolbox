@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6513FA831D8E61AA00480F6A /* gcd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6513FA821D8E61AA00480F6A /* gcd.cpp */; };
-		658C69281D84A1C400793EAE /* 𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 658C69271D84A1C400793EAE /* 𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		658C691B1D849AB200793EAE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,17 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6513FA821D8E61AA00480F6A /* gcd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gcd.cpp; sourceTree = "<group>"; };
-		6513FA841D8F0B9800480F6A /* bigO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bigO.txt; sourceTree = "<group>"; };
-		6513FA8A1D8F14CA00480F6A /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log.png; sourceTree = "<group>"; };
-		6513FA8B1D8F14D000480F6A /* runtime_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runtime_table.png; sourceTree = "<group>"; };
-		6513FA8C1D8F15B800480F6A /* runtime_graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runtime_graph.png; sourceTree = "<group>"; };
-		6513FA8D1D8F424C00480F6A /* bigo_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigo_options.png; sourceTree = "<group>"; };
-		6530236C1D8F95280010088B /* 01_introduction_starter_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 01_introduction_starter_files; sourceTree = "<group>"; };
-		6530236D1D8F95F60010088B /* bigo-fibonacci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigo-fibonacci.png"; sourceTree = "<group>"; };
-		6530236E1D8F961E0010088B /* bigo-explanation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigo-explanation.png"; sourceTree = "<group>"; };
+		653023701D8F9E800010088B /* week1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = week1; sourceTree = "<group>"; };
+		653023711D8F9E800010088B /* week2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = week2; sourceTree = "<group>"; };
 		658C691D1D849AB200793EAE /* AlgorithmicToolbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicToolbox; sourceTree = BUILT_PRODUCTS_DIR; };
-		658C69271D84A1C400793EAE /* 𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,30 +35,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6513FA881D8F14AF00480F6A /* week1 */ = {
-			isa = PBXGroup;
-			children = (
-				658C69271D84A1C400793EAE /* 𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp */,
-			);
-			name = week1;
-			sourceTree = "<group>";
-		};
-		6513FA891D8F14BA00480F6A /* week2 */ = {
-			isa = PBXGroup;
-			children = (
-				6530236C1D8F95280010088B /* 01_introduction_starter_files */,
-				6513FA8D1D8F424C00480F6A /* bigo_options.png */,
-				6530236D1D8F95F60010088B /* bigo-fibonacci.png */,
-				6530236E1D8F961E0010088B /* bigo-explanation.png */,
-				6513FA8C1D8F15B800480F6A /* runtime_graph.png */,
-				6513FA8B1D8F14D000480F6A /* runtime_table.png */,
-				6513FA8A1D8F14CA00480F6A /* log.png */,
-				6513FA821D8E61AA00480F6A /* gcd.cpp */,
-				6513FA841D8F0B9800480F6A /* bigO.txt */,
-			);
-			name = week2;
-			sourceTree = "<group>";
-		};
 		658C69141D849AB200793EAE = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +54,8 @@
 		658C691F1D849AB200793EAE /* AlgorithmicToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				6513FA891D8F14BA00480F6A /* week2 */,
-				6513FA881D8F14AF00480F6A /* week1 */,
+				653023701D8F9E800010088B /* week1 */,
+				653023711D8F9E800010088B /* week2 */,
 			);
 			path = AlgorithmicToolbox;
 			sourceTree = "<group>";
@@ -153,8 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6513FA831D8E61AA00480F6A /* gcd.cpp in Sources */,
-				658C69281D84A1C400793EAE /* 𝚖𝚊𝚡_𝚙𝚊𝚒𝚛𝚠𝚒𝚜𝚎_𝚙𝚛𝚘𝚍𝚞𝚌t.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
