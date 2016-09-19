@@ -1,0 +1,17 @@
+// Asymptotic Notation
+
+The term asymptotic means approaching a value or curve arbitrarily closely (i.e., as some sort of limit is taken). A line or curve that is asymptotic to given curve is called the asymptote of .
+
+Asymptotic Notations are languages that allow us to analyze an algorithm's running time by identifying its behavior as the input size for the algorithm increases. This is also known as an algorithm's growth rate.
+
+All of these issues can multiply runtimes by (large) constant. So measure in a way that ignores constant multiples.
+
+Consider asymptotic runtimes. How does runtime scale with input size. We are not calculating the number of seconds or anything like that.
+
+So, asymptotic runtime is basically focused on finding a "runtime" based on how big is our input, and how the algorithm will manipulate it.
+
+That will tell what will happen with my program when I run it over some real large inputs (check runtimes image).
+
+// Big O notation -> A type of asymptotic notation
+
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.Jun 23, 2009
